@@ -1,0 +1,22 @@
+.back{
+    background-image: url("https://images5.alphacoders.com/700/700049.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+}
+.title{
+    margin: 0 auto;
+    width: 60%;
+    margin-top:10%;
+    font-size: 50px;
+    color:lime;
+    padding-left: 20px;
+    border-left: 10px solid #000000;
+}
+.button{
+    text-align:center;
+    margin-top:10%;
+    margin-left:43%;
+    margin-right:43%;
+    font-size:30px;
+    color:#ffffff;
+}
