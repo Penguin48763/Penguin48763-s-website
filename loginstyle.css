@@ -1,0 +1,9 @@
+.animation{
+    margin-top: -30px;
+    position: left top;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    object-fit: cover;
+}

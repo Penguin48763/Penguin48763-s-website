@@ -1,10 +1,14 @@
+*{
+  font-family:'Times New Roman', fantasy, sans-serif;
+}
 .back{
   padding-top: 100px;
-  width:100%;
-  background-image:url("https://images5.alphacoders.com/700/700049.jpg");
+  background-image:url("landscape.png");
   background-repeat:no-repeat;
   background-attachment: fixed;
   background-position: right top;
+  background-size: cover;
+  overflow-x: hidden;
 }
 .Penguin{
     margin-left: 40%;
@@ -12,17 +16,19 @@
     height:30%;
 }
 .title{
-    margin-top: 120px;
     text-align: center;
     font-size:30px;
-    font-family:微軟正黑體;
     padding:20px;
     margin-left:30%;
     margin-right:20%;
-    color:aqua;
+    color:black;
 }
 .list{
   margin-left:15%;
   font-size:20px;
   color:black;
+}
+.footer{
+  width:120%;
+  overflow-x:hidden;
 }
