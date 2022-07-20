@@ -1,0 +1,72 @@
+*{
+  font-family:'Times New Roman', fantasy, sans-serif;
+}
+.back{
+  padding-top: 100px;
+  background-image:url("../image/landscape.png");
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: right top;
+  background-size: cover;
+  overflow-x: hidden;
+}
+.Penguin{
+    margin-left: 40%;
+    width:50%;
+    height:30%;
+}
+.Penguin img{
+  transform:scale(1,1);
+  transition: all 0.8s ease-out;
+}
+.Penguin img:hover{
+  transform:scale(1.2,1.2);
+}
+.title{
+    text-align: center;
+    font-size:30px;
+    padding:20px;
+    margin-left:30%;
+    margin-right:20%;
+    color:black;
+}
+.list{
+  margin-left:15%;
+  font-size:20px;
+  color:black;
+}
+.user{
+  background-color: aqua;
+  padding-top:20px;
+  margin-top:-10px;
+}
+.name{
+  margin-left: 20px;
+  margin-top:-25px;
+  font-size: 30px;
+}
+.stats{
+  margin:10%;
+}
+.stats img{
+  transform:scale(1,1);
+  transition: all 0.8s ease-out;
+}
+.stats img:hover{
+  transform:scale(1.2,1.2);
+}
+.footer{
+  width:110%;
+  bottom: 0%;
+  mix-blend-mode: multiply;
+  position: fixed;
+  margin-left:5px;
+}
+.footer img{
+  transform:scale(1,1);
+  transition: all 0.5s ease-out;
+}
+
+.footer img:hover{
+  transform:scale(1.2,1.2);
+}
