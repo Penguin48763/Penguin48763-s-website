@@ -1,6 +1,11 @@
 *{
   font-family:'Times New Roman', fantasy, sans-serif;
 }
+.title{
+  margin-left:400px;
+  margin-right:200px;
+  color: black;
+}
 .back{
   padding-top: 100px;
   background-image:url("../image/landscape.png");
@@ -44,6 +49,7 @@
   margin-left: 20px;
   margin-top:-25px;
   font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
 }
 .stats{
   margin:10%;

@@ -1,0 +1,89 @@
+*{
+    font-family:'Times New Roman', fantasy, sans-serif;
+  }
+
+.body{
+    padding-top: 25px;
+    background-image:url("../image/landscape.png");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.Penguin{
+    margin-left: 40%;
+    width:50%;
+    height:30%;
+}
+.Penguin img{
+    transform:scale(1,1);
+    transition: all 0.8s ease-out;
+}
+.Penguin img:hover{
+    transform:scale(1.2,1.2);
+}
+.List{
+    background-color: #cccccc;
+    position:fixed;
+    top:0;
+    left:0;
+    width:14vw;
+    height:100vh;
+}
+.user{
+    background-color:aqua;
+}
+.user p{
+    font-size: 30px;
+}
+.user img{
+    width:5vw;
+    height:5vw;
+    float:left;
+}
+.data{
+    margin-left:1vw;
+}
+.data hr{
+    margin-left:-1vw;
+}
+.stats img{
+    margin-top: 1vw;
+    margin-left: 1vw;
+    height: 10vw;
+    width: 10vw;
+}
+.art{
+    margin-left:400px;
+    margin-right:200px;
+}
+.art h2{
+    font-size: 2vw;
+}
+.content{
+    padding: 2vw;
+    background-color:#4d80b3;
+    border: 3px;
+}
+.content img{
+    width: 15vw;
+    height: 30vw;
+    float: right;
+}
+.feet{
+    width:110%;
+    bottom: 0%;
+    mix-blend-mode: multiply;
+    position: fixed;
+    margin-left:5px;
+}
+.feet img{
+    width:4vw;
+    height: auto;
+    transform:scale(1,1);
+    transition: all 0.5s ease-out;
+}
+.feet img:hover{
+    transform:scale(1.2,1.2);
+}
