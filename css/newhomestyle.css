@@ -95,4 +95,9 @@
     display: scroll;
     width:5vh;
     height: 5vh;
+    transform:scale(1,1);
+    transition: all 0.2s ease-out;
+}
+.back img:hover{
+    transform:scale(1.5,1.5);
 }
