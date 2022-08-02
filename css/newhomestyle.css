@@ -11,12 +11,15 @@
     background-size: cover;
     overflow-x: hidden;
 }
+.Penguincontainer{
+    margin-left:14vw;
+}
 .Penguin{
-    margin-left: 40%;
-    width:50%;
-    height:30%;
+    size: auto;
 }
 .Penguin img{
+    margin:auto;
+    display: block;
     transform:scale(1,1);
     transition: all 0.8s ease-out;
 }
@@ -38,9 +41,10 @@
     font-size: 30px;
 }
 .user img{
-    width:5vw;
-    height:5vw;
+    width: 75px;
+    height:auto;
     float:left;
+    max-width:75px;
 }
 .data{
     margin-left:1vw;
@@ -49,14 +53,19 @@
     margin-left:-1vw;
 }
 .stats img{
-    margin-top: 1vw;
-    margin-left: 1vw;
-    height: 10vw;
-    width: 10vw;
+    margin: auto;
+    display: block;
+    height: 100%;
+    width: auto;
+    max-width:12vw;
+}
+.artcontainer{
+    margin-left:14vw;
 }
 .art{
-    margin-left:400px;
-    margin-right:200px;
+    display:block;
+    margin:auto;
+    max-width:800px;
 }
 .art h2{
     font-size: 2vw;
@@ -67,8 +76,8 @@
     border: 3px;
 }
 .content img{
-    width: 15vw;
-    height: 30vw;
+    width:20%;
+    height: auto;
     float: right;
 }
 .feet{
