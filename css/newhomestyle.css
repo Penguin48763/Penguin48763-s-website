@@ -12,6 +12,7 @@ body{
 }
 .Penguincontainer{
     margin-left:14vw;
+    size:auto;
 }
 .Penguin{
     size: auto;
@@ -64,8 +65,9 @@ body{
         background-color: #333;
         color: #fff;
     }
-
-    
+.content{
+    font-size: medium;
+}
 }
 @media screen and (max-height: 800px) {
     table,
@@ -79,6 +81,9 @@ body{
         background-color: #333;
         color: #fff;
     }
+.content{
+    font-size:smaller
+}
 }
 @media screen and (max-height: 600px) {
     table,
@@ -92,9 +97,13 @@ body{
         background-color: #333;
         color: #fff;
     }
+.content{
+    font-size: 6px;
+}
 }
 .stats img{
     margin: auto;
+    padding: 5%;
     display: block;
     height: 100%;
     width: auto;
@@ -120,6 +129,9 @@ body{
     width:20%;
     height: auto;
     float: right;
+}
+@media (max-width:) {
+    
 }
 .feet{
     width:100%;
