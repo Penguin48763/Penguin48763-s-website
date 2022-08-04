@@ -1,8 +1,7 @@
 *{
     font-family:'Times New Roman', fantasy, sans-serif;
   }
-
-.body{
+body{
     padding-top: 25px;
     background-image:url("../image/landscape.png");
     background-repeat:no-repeat;
@@ -26,6 +25,10 @@
 .Penguin img:hover{
     transform:scale(1.2,1.2);
 }
+.Listcontainer{
+    max-width: 14vw;
+    max-height: 80vw;
+}
 .List{
     background-color: #cccccc;
     position:fixed;
@@ -47,10 +50,48 @@
     max-width:75px;
 }
 .data{
-    margin-left:1vw;
+    margin:auto;
 }
-.data hr{
-    margin-left:-1vw;
+@media screen and (max-height: 1200px) {
+    table,
+    td {
+        margin:auto;
+        font-size: medium;
+    }
+
+    thead,
+    tfoot {
+        background-color: #333;
+        color: #fff;
+    }
+
+    
+}
+@media screen and (max-height: 800px) {
+    table,
+    td {
+        margin:auto;
+        font-size: smaller;
+    }
+
+    thead,
+    tfoot {
+        background-color: #333;
+        color: #fff;
+    }
+}
+@media screen and (max-height: 600px) {
+    table,
+    td {
+        margin:auto;
+        font-size: 6px;
+    }
+
+    thead,
+    tfoot {
+        background-color: #333;
+        color: #fff;
+    }
 }
 .stats img{
     margin: auto;
@@ -81,11 +122,11 @@
     float: right;
 }
 .feet{
-    width:110%;
+    width:100%;
     bottom: 0%;
     mix-blend-mode: multiply;
     position: fixed;
-    margin-left:5px;
+    margin:auto;
 }
 .feet img{
     width:4vw;
